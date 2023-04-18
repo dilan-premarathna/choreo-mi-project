@@ -26,6 +26,12 @@
   </properties>
   <dependencies>
     <dependency>
+      <groupId>com.example.lib</groupId>
+      <artifactId>amazonsqs-connector</artifactId>
+      <version>1.1.1</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
       <groupId>wso2.sampleHelloWorld.metadata</groupId>
       <artifactId>SQSAPI_metadata</artifactId>
       <version>1.0.0</version>
@@ -66,12 +72,6 @@
       <artifactId>sendMessage</artifactId>
       <version>1.0.0</version>
       <type>xml</type>
-    </dependency>
-    <dependency>
-      <groupId>com.example.lib</groupId>
-      <artifactId>amazonsqs-connector</artifactId>
-      <version>1.1.1</version>
-      <type>zip</type>
     </dependency>
   </dependencies>
   <repositories>
