@@ -7,5 +7,6 @@
         <enableSSL>true</enableSSL>
         <region>ap-southeast-2</region>
         <name>AMAZON_SQS_CONNECTION_1</name>
+        <blocking>false</blocking>
     </amazonsqs.init>
 </localEntry>
